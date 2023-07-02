@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .dropdown-menu {
+            display: none;
+        }
+
+        .dropdown-menu.active {
+            display: block;
+        }
+
+        .nav-menu {
+            display: none;
+        }
+
+        .nav-menu.active {
+            display: block;
+        }
+    </style>
+  
+   
+</head>
+
+<body>
+    <nav class="">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-white font-bold text-lg"><img src="./lundryproject-images/Logo.svg" alt=""></a>
+                </div>
+                <div class="md:hidden">
+                    <button id="hamburger"
+                        class="text-gray-300 hover:text-white inline-flex items-center justify-center p-2 rounded-md focus:outline-none">
+                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden md:block ">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#" class="text-gray-900 hover:text-white px-3 py-2 rounded-md">Pricing</a>
+                        <a href="#" class="text-gray-900 hover:text-white px-3 py-2 rounded-md">How it works</a>
+                        <a href="#" class="text-gray-900 hover:text-white px-3 py-2 rounded-md">Services</a>
+                        <a href="#" class="text-gray-900 hover:text-white px-3 py-2 rounded-md">About</a>
+                        <button class="rounded-lg border bg-black text-gray-200 py-1 px-2">Schedule a pickup</button>
+                       
+                    </div>
+                </div>
+                <!-- <button class="rounded-lg border bg-black text-gray-200 py-1 px-2">Schedule a pickup</button> -->
+            </div>
+        </div>
+
+        <div id="nav-menu" class="md:hidden lg:hidden nav-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#" class="text-gray-900 hover:text-white block px-3 py-2 rounded-md">pricing</a>
+                <a href="#" class="text-gray-900 hover:text-white block px-3 py-2 rounded-md">How it works</a>
+                <a href="#" class="text-gray-900 hover:text-white block px-3 py-2 rounded-md">Services</a>
+                <a href="#" class="text-gray-900 hover:text-white block px-3 py-2 rounded-md">About</a>
+                <button class="rounded-lg border bg-black text-gray-200 py-1 px-2">Schedule a pickup</button>
+            </div>
+        </div>
+    </nav>
+   
+ 
+
+   
+
+ 
+
+
+
+
+    
+    <div class=" mb-10">
+       
+        <div class="  block container  mx-auto space-y-10 md:grid md:grid-cols-2 gap-4  mt-5 ">
+            <div class=" block mt-36  px-3 text-4xl w-auto     ">
+                <h2 class="mb-3 text-5xl">Laundry and Dry- </h2>
+                <span class="text-5xl ">Cleaning got easier!</span>
+                <p class="  text-sm text-black fw-bold   my-2">We offer convenient pickup and delivery options to easy your
+                    laundry
+                    experience</p>
+                <div class="  flex space-x-2 w-56">
+                    <div class=><img class=" w-auto" src="../lundryproject-images/Apple.png" alt=""></div>
+                    <div><img class=" w-auto" src="../lundryproject-images/Google.png" alt=""></div>
+
+                </div>
+            </div>
+
+            <div><img class="w-auto px-3 md:px-0" src="/lundryproject-images/Hero.png" alt=""></div>
+        </div>
+
+        <!--SECOND STAGE-->
+        <section class="hero py-10" style="background-color: #f5f5f5;">
+            <div class=" subHero_One text-center mx-auto text-xl  lg:w-2/5 lg:text-3xl px-2 ">
+
+                <h3 class="text-blue-500 mb-3">Testimonies</h3>
+                <p>You are not alone, see how we have been able to put smiles on our customers face.</p>
+                <div class="mt-10 text-gray-400 text-xl  ms-2">
+                    <p class="">Read what our customers have to say about
+                        their experience using Lunddr.</p>
+                </div>
+            </div>
+
+            <div class=" my-8 subHeroTwo flex  space-x-10 item-center justify-center   ">
+                <div class="flex">
+                    <img class="group-img" src="./lundryproject-images/Group 167.png" alt="">
+                    <div class="flex  flex-col ms-5 ">
+                        <span class=" text-xl">2,500+</span>
+                        <span class="text-sm text-gray-400">Happy users</span>
+
+                    </div>
+                </div>
+
+
+                <div class=" flex flex-col">
+
+                    <span>4.8/5</span>
+                    <span>
+                        <span class="" style="color: gold; font-size: 0.9rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+                        Rating</span>
+                </div>
+
+            </div>
+            <div class=" relative left-12 bottom-24 flex mx-auto h-16 w-0 border border-red" style=" color: aqua;">
+            </div>
+
+            <!--card section-->
+            <div
+                class="  block py-3 space-y-5 mt-10 lg:px-3 lg:mx-10 flex flex-row space-x-5 items-center justify-center  flex-wrap lg:flex-nowrap lg:space-y-0   ">
+                <div><a href="#"
+                        class="block ms-5  hover:-translate-y-3 duration-300 lg:ms-0 max-w-xs p-4 bg-white border border-gray-200 rounded-lg shadow  ">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">Anytime I send my laundry out to Lunddr,
+                            I get treated nicely and my family loves to see it because I get to spend more time with
+                            them..</p>
+                        <div class="flex mt-1 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+
+
+                <div><a href="#"
+                        class="block max-w-xs hover:-translate-y-3 duration-300 p-4 bg-white md:-mt-5  lg:-mt-0 border-gray-200 rounded-lg shadow hover:bg-gray-100 :bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">Using Lunddr for my laundry has been one
+                            of the best decisions I have ever made. They are professional and delivers quality
+                            service...</p>
+                        <div class="flex mt-1 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1 ">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+                <div><a href="#"
+                        class="block max-w-xs hover:-translate-y-3 duration-300    p-4 bg-white  border-gray-200 rounded-lg shadow hover:bg-gray-100 :bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                        style="height: 12.5rem;">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">Neatly packed clothes, timely delivery
+                            and warm reception are the three qualities I see in Lunddr...</p>
+                        <div class="flex mt-5 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1 ">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+                <div><a href="#"
+                        class="block max-w-xs hover:-translate-y-3 duration-300  p-4 bg-white  border-gray-200 rounded-lg shadow hover:bg-gray-100 :bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                        style="height: 12.5rem;">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">With Lunddr,less is more! I get to do my
+                            laundry at a very affordable price and still get the best service from them...</p>
+                        <div class="flex mt-1 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+
+            </div>
+
+            <div
+                class="  block space-y-5 mt-4 lg:px-3 lg:mx-10 flex flex-row space-x-5 items-center justify-center  flex-wrap lg:flex-nowrap lg:space-y-0   ">
+                <div><a href="#"
+                        class="block ms-5  hover:-translate-y-3 duration-300 lg:ms-0 max-w-xs p-4 bg-white border border-gray-200 rounded-lg shadow  ">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">Read what they have to say about their
+                            experiences using our App. Read what they have to say about their experiences using our
+                            App.p>
+                            <div class="flex mt-1 gap-2">
+                                <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                                <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1">Balogun Rukayat</h3>
+                            </div>
+                    </a></div>
+
+
+                <div><a href="#"
+                        class="block max-w-xs hover:-translate-y-3 duration-300 p-4 bg-white md:-mt-5  lg:-mt-0 border-gray-200 rounded-lg shadow hover:bg-gray-100 :bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">Using Lunddr for my laundry has been one
+                            of the best decisions I have ever made. They are professional and delivers quality
+                            service...</p>
+                        <div class="flex mt-1 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1 ">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+                <div><a href="#"
+                        class="block max-w-xs hover:-translate-y-3 duration-300    p-4 bg-white  border-gray-200 rounded-lg shadow hover:bg-gray-100 :bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                        style="height: 12.5rem;">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">Neatly packed clothes, timely delivery
+                            and warm reception are the three qualities I see in Lunddr...</p>
+                        <div class="flex mt-5 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1 ">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+                <div><a href="#"
+                        class="block max-w-xs hover:-translate-y-3 duration-300  p-4 bg-white  border-gray-200 rounded-lg shadow hover:bg-gray-100 :bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+                        style="height: 12.5rem;">
+                        <span class="" style="color: gold; font-size: 1.5rem;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i>
+                            <i class="bi bi-star-fill -ms-1"></i></span>
+
+                        <p class="font-normal text-gray-700 dark:text-gray-400">With Lunddr,less is more! I get to do my
+                            laundry at a very affordable price and still get the best service from them...</p>
+                        <div class="flex mt-1 gap-2">
+                            <div class="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <h3 class="mb-2 text-sm  tracking-tight text-gray-500 mt-1">Balogun Rukayat</h3>
+                        </div>
+                    </a></div>
+
+
+
+            </div>
+
+            <div class="px-3 mt-10">
+                <div class="parent  border-black border-4 rounded-lg  lg:mx-28 h-auto  p-16  mt-8">
+                    <div class="block space-y-4 lg:space-y-0 flex  flex-col lg:flex-row justify-around md:flex-row">
+                        <div class="text-2xl pe-">
+                            <h4>Stop worrying about your next laundry, we</h4>
+                            <h4>will handle it for you</h4>
+
+                        </div>
+                        <span><img
+                                class="relative top-20  left-3  w-24   md:left-0  md:w-24 lg:top-18 lg:left-16  lg:w-24  "
+                                src="./lundryproject-images/image.png" alt=""></span>
+                        <button
+                            class=" px-4 rounded-md  outline-none text-lg bg-black   md:max-w-xs md:mx-auto lg:mb-10 text-white">Schedule
+                            a pickup</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--SECOND STAGE END-->
+
+        <!--STAGE THREE START-->
+        <section class="   mt-10 ">
+
+            <div class="text-2xl mb-10 text-center px-3">
+                <h2 class="text-purple-500 f-5">How it works</h2>
+                <h3 class="my-5">How Lunddr works</h3>
+                <p class="text-gray-500">We'll clean and return your clothes in no time</p>
+            </div>
+            <div class=" container px-16  lg:grid grid-cols-2 md:grid grid-cols-2   ">
+
+                <!--frame one-->
+                <div><img class=" md:w-4/5  lg:ml-28 " src="./lundryproject-images/Frame.png" alt=""></div>
+                <div class="text-xl  ml- md:ml-0 lg:ml-12 mt-2  ">
+                    <p class="text-purple-500 bg-gray-100 w-24 px-2 mt-5 ">Schedule</p>
+                    <h3 class="font-semibold text-3xl my-3">Schedule a pickup</h3>
+                    <p class="text-gray-500 font-light text-3xl ">Tell us about you and your cleaning
+                        needs.</p>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-2.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Download Lunddr App</div>
+                    </div>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-1.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Search availabe service</div>
+                    </div>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-3.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Book your schedule</div>
+                    </div>
+                </div>
+
+                <!--frame 2-->
+                <div class="text-xl mt-16 lg:ml-24 lg:pr-1">
+                    <p class="text-purple-500 bg-gray-100 w-24 px-2 pl-2 ">Pickup</p>
+                    <h3 class="font-semibold text-3xl my-3 pl-2">We pickup</h3>
+                    <p class="text-gray-500 font-light text-3xl pl-2 ">You tell us your location for pickup.</p>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img class="" src="./lundryproject-images/Frame-5.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">We locate your address</div>
+                    </div>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-6.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Collect the clothes</div>
+                    </div>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-6.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">We launder the clothes</div>
+                    </div>
+                </div>
+                <div><img class="md:w-4/5 mt-10  " src="./lundryproject-images/Frame-9.png" alt=""></div>
+
+                <!--frame3-->
+
+                <div><img class="md:w-4/5  lg:ml-20 mt-14 " src="./lundryproject-images/Frame-4.png" alt=""></div>
+                <div class="text-xl ml- md:ml-0 lg:ml-12 mt-14 ">
+                    <p class="text-purple-500 bg-gray-100 w-24 px-2 ">DElivery</p>
+                    <h3 class="font-semibold text-3xl my-3">We deliver</h3>
+                    <p class="text-gray-500 font-light text-3xl ">Tell us about you and your cleaning
+                        needs.</p>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-2.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Download Lunddr App</div>
+                    </div>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-1.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Search availabe service</div>
+                    </div>
+                    <div class="flex mt-5 space-x-3">
+                        <div><img src="./lundryproject-images/Frame-3.png" alt=""></div>
+                        <div class="mt-1 text-gray-500 font-normal">Book your schedule</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--STAGE THREE END-->
+
+
+
+        <section class="service py-8 my-8" style="background-color: #f5f5f5;">
+            <div class="container mx-auto text-center ">
+                <span class="text-purple-500 text-2xl bg-gray-300 w-20 px-3   "> service</span>
+                <h4 class="my-3 text-normal text-2xl">Our Awesome Services</h4>
+                <p class="text-gray-500 mb-10">We deliver various cleaning services that makes your daily routine more
+                    convenient and efficient.</p>
+            </div>
+                                <!--card row-->
+            <div class="px-16  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-7 ">
+                <!--Card 1-->
+                <div class="rounded-lg p-1    border  overflow-hidden shadow-lg ">
+                  <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110 " src="./lundryproject-images/Frame10.png" alt="Mountain">
+                  
+                  <div class="px-3 py-1">
+                    
+                    <p class="text-gray-700 text-base">
+                     Dry cleaning
+                    </p>
+                </div>
+                  
+                 
+                </div>
+                <!--Card 2-->
+                <div class="rounded-lg p-1  border overflow-hidden shadow-lg ">
+                  <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110" src="./lundryproject-images/Frame11.png" alt="River">
+                  <div class="px-3 py-1">
+                   
+                    <p class="text-gray-700 text-base">
+                        Wash and fold
+                    </p>
+                  </div>
+                 
+                </div>
+            
+                <!--Card 3-->
+                <div class="rounded-lg p-1 border overflow-hidden shadow-lg">
+                  <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110" src="./lundryproject-images/Frame12.png" alt="Forest">
+                  <div class="px-3 py-4">
+                   
+                    <p class="text-gray-700 text-base">
+                        Ironing
+                    </p>
+                  </div>
+                  
+                </div>
+                <!--card 4-->
+                <div class="rounded-lg p-1 transition-x  border overflow-hidden shadow-lg">
+                    <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110" src="./lundryproject-images/Frame13.png" alt="Mountain">
+                    <div class="px-3 py-4">
+                      
+                      <p class="text-gray-700 text-base">
+                        Stain removal/treatment
+                      </p>
+                    </div>
+                   
+                  </div>
+              </div>
+
+              <div class="px-16 py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-7 ">
+                <div class="rounded-lg p-3    border  overflow-hidden shadow-lg ">
+                    <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110 " src="./lundryproject-images/Frame14.png" alt="Mountain">
+                    
+                    <div class="px-3 py-1">
+                      
+                      <p class="text-gray-700 text-base">
+                       Dry cleaning
+                      </p>
+                  </div>
+                    
+                   
+                  </div>
+                  <!--Card 2-->
+                  <div class="rounded-lg p-3  border overflow-hidden shadow-lg ">
+                    <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110" src="./lundryproject-images/Frame15.png" alt="River">
+                    <div class="px-3 py-1">
+                     
+                      <p class="text-gray-700 text-base">
+                          Wash and fold
+                      </p>
+                    </div>
+                   
+                  </div>
+              
+                  <!--Card 3-->
+                  <div class="rounded-lg p-3 border overflow-hidden shadow-lg">
+                    <img class="w-full p-4 transition ease-in-out duration-700 hover:-translate-y-1 hover:scale-110" src="./lundryproject-images/Frame16.png" alt="Forest">
+                    <div class="px-3 py-4">
+                     
+                      <p class="text-gray-700 text-base">
+                          Ironing
+                      </p>
+                    </div>
+                    
+                  </div>
+                  
+              </div>
+            
+        </section>
+
+        <section class="second_to_last_section container   mx-auto  my-5 px-4  ">
+
+            <div class=" block rounded-lg  w-full  md:px-0 md:grid md:grid-cols-2  "
+                style="background-color: rgba(2, 26, 105, 0.977);">
+                <div class="text-white ms-3  text-2xl">
+                    <h3>Start using laundry </h3>
+                    <h3>app in a jiffy!</h3>
+                    <p class="mt-4 text-sm md:text-xl">You can download Lunddr app below for maximum experience</p>
+
+                    <div class="flex gap-x-2  mt-2">
+                        <div><a href="#"><img class="w-md" src="./lundryproject-images/Apple.png" alt=""></a></div>
+                        <div><a href="#"><img class="w-md" src="./lundryproject-images/Google.png" alt=""></a></div>
+
+                    </div>
+                </div>
+                <div><img src="./lundryproject-images/Brandpattern.png" class=" block md:ms-     " alt=""></div>
+
+
+            </div>
+
+        </section>
+        <span class="  container relative bg- flex justify-end bottom-96  md:bottom-80 md:right-16 "
+            style="bottom: rem;"><img src="./lundryproject-images/smartphone.png" class=" w-auto  " alt=""></span>
+
+        <section class="  last_section ">
+            <div
+                class=" container p-4  -mt-56 block grid grid-cols-2 text-center  md:mx-auto md:grid md:grid-cols-4 block  align-middle     gap-8 leading-loose px-2 text-gray-600 ">
+                <div class=" ">
+                    <p class="mb-3 mt-3 md:mt-0"><a href="#"><img src="./lundryproject-images/Logo.svg" alt=""></a></p>
+                    <p>Welcome to our laundry services! We offer a range of high-quality laundry and dry cleaning
+                        services to meet all of your needs. read more...</p>
+                </div>
+                <div class="  text-center my-4  md:my-0  " >
+                    <div class=" bg-red-200  w-36 mx-auto ">
+                        <h2 class="text-black  mb-3 text-xl" id="ome">Our Services</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#">Dry Cleaning</a></li>
+                    </ul>
+                    <ul>
+                        <li> <a href="#">Wash and fold</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">ironing</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Stain removal</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Office cleaning</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">After party cleaning</a></li>
+                    </ul>
+
+
+                </div>
+                <div>
+                    <div class=" bg-red-200  w-36 mx-auto ">
+                        <h2 class="text-black mb-3 text-xl">Follow us</h2>
+                    </div>
+                    <p><a href="#">facebook</a></p>
+                    <p><a href="#">instagram</a></p>
+                    <p><a href="#">twitter</a></p>
+                    <p><a href="#">LinkedIn</a></p>
+                </div>
+                <div>
+                    <div class=" bg-red-200  w-36 mx-auto ">
+                        <h2 class="text-black mb-3 text-xl">Company</h2>
+                    </div>
+                    <p><a href="#">About us</a></p>
+                    <p><a href="#">Why lundr</a></p>
+                    <p><a href="#">Pricing</a></p>
+                    <p><a href="#">Contact us</a></p>
+                    <p><a href="#">FAQ</a></p>
+                </div>
+
+
+            </div>
+
+        </section>
+        <hr class=" border border-gray-400 my-8 md:mx-14 ">
+
+
+        <footer class=" flex justify-center">
+            <span class="text-gray-600">&copy 2023 lundrr, All right reserved.</span>
+        </footer>
+
+
+    </div>
+
+
+
+
+<script src="nav.js" >
+     
+</script>
+</body>
+
+</html>
